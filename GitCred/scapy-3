@@ -1,0 +1,32 @@
+!#/bin/bash
+
+import scapy;
+
+send(IP(dst="10.10.10.1")/ICMP())
+sendp("I'm NikkiBB travelling my see throughNET", ttl=(1,4)), iface="eth1")
+sendp(rdpcap("/tmp/pcapfile")) #tcpreplay
+send(IP(dst='127.0.0.1'), return_packets=True)
+____________________________________________
+conf.checkIPaddr = False # answer IP will be != from the one we requested
+sr(IP(dst="225.0.0.1%eth1")/ICMP(), multi=True)
+sr(IPv6(dst="ff02::1%eth1")/ICMPv6EchoRequest(), multi=True)
+__________________________________________________________
+pkt = IP(dst=ScopedIP("225.0.0.1", scope=conf.iface))ICMP()
+send(IP(dst="target")/fuzz(UDP()/NTP(version=4)),loop=2)
+______________________________________________________
+pkt = IP(len=RawVal(b'NikkiBB"), src="255.0.0.1")
+bytes(pkt)
+_______________________________________________
+p = sr1(IP(dst="www.icloud.com")/ICMP()/"XXXXXXXXXX")
+p
+p.show()
+___________________________________________________
+sr1(IP(dst="192.168.1.999")/UDP()/DNS(rd=1,qd=DNSQR(qname="www.icloud.com")))
+_________________________________________________________________________
+sr(IP(dst="192.168.1.999")/TCP(dport=[21,22,23]))
+ans, unans = _
+ans.summary()
+______________________________________________
+sr(IP(dst="192.168.1.999/30")/TCP(dport=[21,22,23]),inter=0.2,retry=-2,timeout=1)
+_______________________________________________________________________________
+sr1(IP(dst="192.168.1.999")/TCP(dport=80,flags="S"))
