@@ -1,7 +1,9 @@
 !#/bin/bash
-import scapy
 
-echo on 
+import scapy;
+
+$echo on
+ 
 IP()
 IP()/TCP()
 Ether()/IP()/TCP()
