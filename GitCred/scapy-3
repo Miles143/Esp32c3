@@ -2,6 +2,8 @@
 
 import scapy;
 
+$echo on
+
 send(IP(dst="10.10.10.1")/ICMP())
 sendp("I'm NikkiBB travelling my see throughNET", ttl=(1,4)), iface="eth1")
 sendp(rdpcap("/tmp/pcapfile")) #tcpreplay
