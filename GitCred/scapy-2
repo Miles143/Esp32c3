@@ -1,6 +1,8 @@
 !#/bin/bash
 
-import scapy
+import scapy;
+
+$echo on 
 
 a=IP(dst="www.icloud.com/30")
 a
