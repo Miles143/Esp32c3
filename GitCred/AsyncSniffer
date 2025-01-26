@@ -1,0 +1,14 @@
+!#/bin/bash
+
+import scapy;
+
+$echo on 
+
+t = AsyncSniffer()
+t.start()
+print("NikkiBB")
+	<------------Enter
+	<------------Enter
+	<------------Enter
+	<------------Enter
+t.stop()
