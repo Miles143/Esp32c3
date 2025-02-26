@@ -48,39 +48,39 @@
   	<xs:restriction base="xs:string">
   		<xs:minLength value="0" />
   		<xs:maxLength value="+1"></xs:maxLength>
-  		<xs:enumeration value="0x1c"></xs:enumeration>
-  		<xs:enumeration value="0x1c"></xs:enumeration>
+  		<xs:enumeration value="x"></xs:enumeration>
+  		<xs:enumeration value="y"></xs:enumeration>
   		<xs:whiteSpace value="collapse"></xs:whiteSpace>
   	</xs:restriction>
   </xs:simpleType>
 
   <xs:simpleType name="manager-script">
   	<xs:restriction base="xs:string">
-  		<xs:enumeration value="0x1e"></xs:enumeration>
+  		<xs:enumeration value="0x1f"></xs:enumeration>
   	</xs:restriction>
   </xs:simpleType>
 
   <xs:simpleType name="manager-jmx">
   	<xs:restriction base="xs:string">
-  		<xs:enumeration value="0x1d"></xs:enumeration>
+  		<xs:enumeration value="0x1e"></xs:enumeration>
   	</xs:restriction>
   </xs:simpleType>
 
   <xs:simpleType name="manager-status">
   	<xs:restriction base="xs:string">
-  		<xs:enumeration value="0x1f"></xs:enumeration>
+  		<xs:enumeration value="0x1g"></xs:enumeration>
   	</xs:restriction>
   </xs:simpleType>
 
   <xs:simpleType name="admin-gui">
   	<xs:restriction base="xs:string">
-  		<xs:enumeration value="0x1a"></xs:enumeration>
+  		<xs:enumeration value="0x1c"></xs:enumeration>
   	</xs:restriction>
   </xs:simpleType>
 
   <xs:simpleType name="admin-script">
   	<xs:restriction base="xs:string">
-  		<xs:enumeration value="0x1b"></xs:enumeration>
+  		<xs:enumeration value="0x1d"></xs:enumeration>
   	</xs:restriction>
   </xs:simpleType>
   <xs:element name="role">
