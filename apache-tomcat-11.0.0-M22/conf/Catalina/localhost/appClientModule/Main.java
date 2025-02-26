@@ -1,14 +1,20 @@
+// This class creates a Greeter object
+// that displays a Hello message on
+// the dialog box
+import javax.swing.JOptionPane; 
 
-public class Main {
-	public static void main(String[] args) {
-		// TODO Auto-generated method stub
+public class Greeter{
+	public void sayHello()
+	{
+		JOptionPane.showMessageDialog(null,
+		"Hello, World!", "Greeter",
+		JOptionPane.INFORMATION_MESSAGE);
 	}
-
-	/* (non-Java-doc)
-	 * @see java.lang.Object#Object()
-	 */
-	public Main() {
-		super();
-	}
-
 }
+import "HelloApp2";
+
+public class Greeter{
+	public void sayHello()
+	{
+		System.out.printIn("Hello, World!");
+	}
