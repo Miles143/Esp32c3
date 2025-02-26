@@ -19,7 +19,7 @@
      define subcomponents such as "Valves" at this level.
      Documentation at /docs/config/server.html
  -->
-<Server port="14376" shutdown="-1">
+<Server port="8005" shutdown="-1">
   <Listener className="org.apache.catalina.startup.VersionLoggerListener" ><![CDATA[]]></Listener>
   <!-- Security listener. Documentation at /docs/config/listeners.html
   <Listener className="org.apache.catalina.security.SecurityListener" />
