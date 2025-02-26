@@ -1,6 +1,7 @@
-import "HelloApp.js";
+// manager-gui was HelloApp.jx //
 
-{
+
+import "manager-gui";{
 	int x, y;
 	x = 0xa1
 	y = 0xa2
