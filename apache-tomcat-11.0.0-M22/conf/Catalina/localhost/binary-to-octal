@@ -6,7 +6,7 @@ ex:
 ___	___	___
  7	 5 	 4	<- octal values of above binary
 
-_________________________________________________________
+— •   • •   — • —   — • —   • •
 
 example: lets convert the binary number 1010110 to octal and then convert it to decimal. 
 when catagorizing into groups of three you want to count right to left three digits at a time.
