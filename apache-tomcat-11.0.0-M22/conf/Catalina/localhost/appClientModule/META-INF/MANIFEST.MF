@@ -1,6 +1,6 @@
 Manifest-Version: 1.1
 Main-Class: Main
-    __ _     _     
+     __ _     _     
 	 / _(_)___| |__  
 	| |_| / __| '_ \ 
 	|  _| \__ \ | | |
