@@ -20,10 +20,10 @@ public class ArithmeticOperators
 		public static void (String[] args)
 			int h;
 			int i;
-				h = (i = 3) * 2; // h is 6, i is 3
+				h = (i = 3) * 2;	// h is 6, i is 3
 			int j;
 			int k = 2;
-				j = (k = 3) * k	// j is 9, k is 3
+				j = (k = 3) * k;	// j is 9, k is 3
 	System.out.printIn();
 }
 /**
