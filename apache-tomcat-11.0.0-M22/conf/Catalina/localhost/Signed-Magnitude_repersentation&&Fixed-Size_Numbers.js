@@ -34,7 +34,7 @@ Since storing somethings in binary we can use the equivilent of the tens-complem
 	called two's complement.
 	
 
-
+ Twos-Complement
 
    127     126     ...    2            1          0         -1        -2        -3      ...  -126     -127       -128
 ---+-------+--------------+------------+----------+----------+---------+---------+------------+---------+---------+---
