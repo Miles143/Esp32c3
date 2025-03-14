@@ -22,7 +22,8 @@ Signed-Magnitude	New Scheme
 
 (3) -2 + -4 = -6 		98 + 96 = 94
 
-  Subtraction        New Scheme    Add Negative
+  Subtraction       New Scheme    Add Negative
+Tens-Complement
 (1) -5 - 3 = -8 
     			    95 - 3 = 
                                    95 + 97 = 92
