@@ -1,0 +1,997 @@
+{
+  "SPDXID" : "SPDXRef-DOCUMENT",
+  "spdxVersion" : "SPDX-2.3",
+  "creationInfo" : {
+    "created" : "2024-05-27T19:47:00Z",
+    "creators" : [ "Tool: spdx-maven-plugin" ],
+    "licenseListVersion" : "3.24.0"
+  },
+  "name" : "Apache Commons JCS :: JCache Extras",
+  "dataLicense" : "CC0-1.0",
+  "documentNamespace" : "http://spdx.org/spdxpackages/org.apache.commons_commons-jcs3-jcache-extras-3.2.1",
+  "packages" : [ {
+    "SPDXID" : "SPDXRef-gnrtd8",
+    "copyrightText" : "UNSPECIFIED",
+    "description" : "Apache OpenWebBeans Implementation core module",
+    "downloadLocation" : "NOASSERTION",
+    "filesAnalyzed" : false,
+    "homepage" : "openwebbeans.apache.org/openwebbeans-impl",
+    "licenseConcluded" : "NOASSERTION",
+    "licenseDeclared" : "Apache-2.0",
+    "name" : "OpenWebBeans Core",
+    "originator" : "Organization:The Apache Software Foundation",
+    "summary" : "Apache OpenWebBeans Implementation core module",
+    "versionInfo" : "1.7.6"
+  }, {
+    "SPDXID" : "SPDXRef-gnrtd9",
+    "copyrightText" : "UNSPECIFIED",
+    "description" : "XBean is a plugin based server architecture.",
+    "downloadLocation" : "NOASSERTION",
+    "filesAnalyzed" : false,
+    "homepage" : "http://geronimo.apache.org/maven/xbean/4.11/xbean-finder-shaded",
+    "licenseConcluded" : "NOASSERTION",
+    "licenseDeclared" : "Apache-2.0",
+    "name" : "Apache XBean :: Finder shaded (repackaged)",
+    "originator" : "Organization:The Apache Software Foundation",
+    "summary" : "XBean is a plugin based server architecture.",
+    "versionInfo" : "4.11"
+  }, {
+    "SPDXID" : "SPDXRef-gnrtd0",
+    "copyrightText" : "UNSPECIFIED",
+    "description" : "Apache Geronimo implementation of the JSR-107",
+    "downloadLocation" : "NOASSERTION",
+    "filesAnalyzed" : false,
+    "homepage" : "http://geronimo.apache.org/maven/specs/geronimo-jcache_1.0_spec/1.0-alpha-1",
+    "licenseConcluded" : "NOASSERTION",
+    "licenseDeclared" : "Apache-2.0",
+    "name" : "Apache Geronimo JCache Spec 1.0",
+    "originator" : "Organization:The Apache Software Foundation",
+    "summary" : "Apache Geronimo implementation of the JSR-107",
+    "versionInfo" : "1.0-alpha-1"
+  }, {
+    "SPDXID" : "SPDXRef-gnrtd1",
+    "copyrightText" : "UNSPECIFIED",
+    "description" : "Apache Geronimo implementation of the JSR-330 Dependency Injection Spec API",
+    "downloadLocation" : "NOASSERTION",
+    "filesAnalyzed" : false,
+    "homepage" : "http://geronimo.apache.org/maven/genesis/1.1",
+    "licenseConcluded" : "NOASSERTION",
+    "licenseDeclared" : "Apache-2.0",
+    "name" : "Apache Geronimo JSR-330 Spec 1.0",
+    "originator" : "Organization:The Apache Software Foundation",
+    "summary" : "Apache Geronimo implementation of the JSR-330 Dependency Injection Spec API",
+    "versionInfo" : "1.1"
+  }, {
+    "SPDXID" : "SPDXRef-gnrtd2",
+    "copyrightText" : "UNSPECIFIED",
+    "description" : "Apache Geronimo implementation of the JSR-346 Context and Dependency Injection 1.1 & 1.2 Specification",
+    "downloadLocation" : "NOASSERTION",
+    "filesAnalyzed" : false,
+    "homepage" : "http://geronimo.apache.org/maven/specs/geronimo-jcdi_1.1_spec/1.0",
+    "licenseConcluded" : "NOASSERTION",
+    "licenseDeclared" : "Apache-2.0",
+    "name" : "Apache Geronimo JCDI Spec 1.1",
+    "originator" : "Organization:The Apache Software Foundation",
+    "summary" : "Apache Geronimo implementation of the JSR-346 Context and Dependency Injection 1.1 & 1.2 Specification",
+    "versionInfo" : "1.0"
+  }, {
+    "SPDXID" : "SPDXRef-gnrtd3",
+    "copyrightText" : "UNSPECIFIED",
+    "description" : "Interceptor API 1.2",
+    "downloadLocation" : "NOASSERTION",
+    "filesAnalyzed" : false,
+    "homepage" : "http://geronimo.apache.org/maven/specs/geronimo-interceptor_1.2_spec/1.1",
+    "licenseConcluded" : "NOASSERTION",
+    "licenseDeclared" : "Apache-2.0",
+    "name" : "Apache Geronimo Interceptor Spec 1.2",
+    "originator" : "Organization:The Apache Software Foundation",
+    "summary" : "Interceptor API 1.2",
+    "versionInfo" : "1.1"
+  }, {
+    "SPDXID" : "SPDXRef-gnrtd4",
+    "copyrightText" : "UNSPECIFIED",
+    "description" : "Annotation spec 1.2 API",
+    "downloadLocation" : "NOASSERTION",
+    "filesAnalyzed" : false,
+    "homepage" : "http://geronimo.apache.org/maven/specs/geronimo-annotation_1.2_spec/1.0",
+    "licenseConcluded" : "NOASSERTION",
+    "licenseDeclared" : "Apache-2.0",
+    "name" : "Apache Geronimo Annotation Spec 1.2",
+    "originator" : "Organization:The Apache Software Foundation",
+    "summary" : "Annotation spec 1.2 API",
+    "versionInfo" : "1.0"
+  }, {
+    "SPDXID" : "SPDXRef-gnrtd5",
+    "copyrightText" : "UNSPECIFIED",
+    "description" : "Servlet 3.0 API",
+    "downloadLocation" : "NOASSERTION",
+    "filesAnalyzed" : false,
+    "homepage" : "http://geronimo.apache.org/maven/specs/geronimo-servlet_3.0_spec/1.0",
+    "licenseConcluded" : "NOASSERTION",
+    "licenseDeclared" : "Apache-2.0",
+    "name" : "Servlet 3.0",
+    "originator" : "Organization:The Apache Software Foundation",
+    "summary" : "Servlet 3.0 API",
+    "versionInfo" : "1.0"
+  }, {
+    "SPDXID" : "SPDXRef-gnrtd6",
+    "copyrightText" : "UNSPECIFIED",
+    "description" : "JUnit is a unit testing framework for Java, created by Erich Gamma and Kent Beck.",
+    "downloadLocation" : "NOASSERTION",
+    "filesAnalyzed" : false,
+    "homepage" : "http://junit.org",
+    "licenseConcluded" : "NOASSERTION",
+    "licenseDeclared" : "EPL-1.0",
+    "name" : "JUnit",
+    "originator" : "Organization:JUnit",
+    "summary" : "JUnit is a unit testing framework for Java, created by Erich Gamma and Kent Beck.",
+    "versionInfo" : "4.13.2"
+  }, {
+    "SPDXID" : "SPDXRef-gnrtd7",
+    "copyrightText" : "UNSPECIFIED",
+    "description" : "Core API and libraries of hamcrest matcher framework.",
+    "downloadLocation" : "NOASSERTION",
+    "filesAnalyzed" : false,
+    "homepage" : "http://hamcrest.org/JavaHamcrest/",
+    "licenseConcluded" : "NOASSERTION",
+    "licenseDeclared" : "BSD-3-Clause",
+    "name" : "Hamcrest",
+    "summary" : "Core API and libraries of hamcrest matcher framework.",
+    "versionInfo" : "2.2"
+  }, {
+    "SPDXID" : "SPDXRef-gnrtd10",
+    "copyrightText" : "UNSPECIFIED",
+    "description" : "Repackaged and shaded asm jars",
+    "downloadLocation" : "NOASSERTION",
+    "filesAnalyzed" : false,
+    "homepage" : "http://geronimo.apache.org/maven/xbean/4.11/xbean-asm7-shaded",
+    "licenseConcluded" : "NOASSERTION",
+    "licenseDeclared" : "Apache-2.0",
+    "name" : "Apache XBean :: ASM shaded (repackaged)",
+    "originator" : "Organization:The Apache Software Foundation",
+    "summary" : "Repackaged and shaded asm jars",
+    "versionInfo" : "4.11"
+  }, {
+    "SPDXID" : "SPDXRef-gnrtd19",
+    "copyrightText" : "UNSPECIFIED",
+    "description" : "Common code shared by Catalina and Jasper",
+    "downloadLocation" : "NOASSERTION",
+    "filesAnalyzed" : false,
+    "homepage" : "http://tomcat.apache.org/",
+    "licenseConcluded" : "NOASSERTION",
+    "licenseDeclared" : "Apache-2.0",
+    "name" : "tomcat-util",
+    "summary" : "Common code shared by Catalina and Jasper",
+    "versionInfo" : "7.0.72"
+  }, {
+    "SPDXID" : "SPDXRef-gnrtd13",
+    "copyrightText" : "UNSPECIFIED",
+    "description" : "Apache Commons JCS is a distributed, versatile caching system.",
+    "downloadLocation" : "NOASSERTION",
+    "filesAnalyzed" : false,
+    "homepage" : "http://commons.apache.org/proper/commons-jcs/commons-jcs3-core/",
+    "licenseConcluded" : "NOASSERTION",
+    "licenseDeclared" : "Apache-2.0",
+    "name" : "Apache Commons JCS :: Core",
+    "originator" : "Organization:The Apache Software Foundation",
+    "summary" : "Apache Commons JCS is a distributed, versatile caching system.",
+    "versionInfo" : "3.2.1"
+  }, {
+    "SPDXID" : "SPDXRef-gnrtd14",
+    "copyrightText" : "UNSPECIFIED",
+    "description" : "Tomcat Servlet Engine Core Classes and Standard implementations",
+    "downloadLocation" : "NOASSERTION",
+    "filesAnalyzed" : false,
+    "homepage" : "http://tomcat.apache.org/",
+    "licenseConcluded" : "NOASSERTION",
+    "licenseDeclared" : "Apache-2.0",
+    "name" : "tomcat-catalina",
+    "summary" : "Tomcat Servlet Engine Core Classes and Standard implementations",
+    "versionInfo" : "7.0.72"
+  }, {
+    "SPDXID" : "SPDXRef-gnrtd11",
+    "copyrightText" : "UNSPECIFIED",
+    "description" : "Apache OpenWebBeans Service Provider Interfaces",
+    "downloadLocation" : "NOASSERTION",
+    "filesAnalyzed" : false,
+    "homepage" : "openwebbeans.apache.org/openwebbeans-spi",
+    "licenseConcluded" : "NOASSERTION",
+    "licenseDeclared" : "Apache-2.0",
+    "name" : "SPI definition",
+    "originator" : "Organization:The Apache Software Foundation",
+    "summary" : "Apache OpenWebBeans Service Provider Interfaces",
+    "versionInfo" : "1.7.6"
+  }, {
+    "SPDXID" : "SPDXRef-gnrtd12",
+    "copyrightText" : "UNSPECIFIED",
+    "description" : "Apache Commons JCS is a distributed, versatile caching system.",
+    "downloadLocation" : "NOASSERTION",
+    "filesAnalyzed" : false,
+    "homepage" : "http://commons.apache.org/proper/commons-jcs/commons-jcs3-jcache/",
+    "licenseConcluded" : "NOASSERTION",
+    "licenseDeclared" : "Apache-2.0",
+    "name" : "Apache Commons JCS :: JCache",
+    "originator" : "Organization:The Apache Software Foundation",
+    "summary" : "Apache Commons JCS is a distributed, versatile caching system.",
+    "versionInfo" : "3.2.1"
+  }, {
+    "SPDXID" : "SPDXRef-gnrtd17",
+    "copyrightText" : "UNSPECIFIED",
+    "description" : "Annotations Package",
+    "downloadLocation" : "NOASSERTION",
+    "filesAnalyzed" : false,
+    "homepage" : "http://tomcat.apache.org/",
+    "licenseConcluded" : "NOASSERTION",
+    "licenseDeclared" : "Apache-2.0",
+    "name" : "tomcat-annotations-api",
+    "summary" : "Annotations Package",
+    "versionInfo" : "7.0.72"
+  }, {
+    "SPDXID" : "SPDXRef-gnrtd18",
+    "copyrightText" : "UNSPECIFIED",
+    "description" : "Definition of interfaces shared by Catalina and Jasper",
+    "downloadLocation" : "NOASSERTION",
+    "filesAnalyzed" : false,
+    "homepage" : "http://tomcat.apache.org/",
+    "licenseConcluded" : "NOASSERTION",
+    "licenseDeclared" : "Apache-2.0",
+    "name" : "tomcat-api",
+    "summary" : "Definition of interfaces shared by Catalina and Jasper",
+    "versionInfo" : "7.0.72"
+  }, {
+    "SPDXID" : "SPDXRef-gnrtd15",
+    "copyrightText" : "UNSPECIFIED",
+    "description" : "javax.servlet package",
+    "downloadLocation" : "NOASSERTION",
+    "filesAnalyzed" : false,
+    "homepage" : "http://tomcat.apache.org/",
+    "licenseConcluded" : "NOASSERTION",
+    "licenseDeclared" : "NOASSERTION",
+    "name" : "tomcat-servlet-api",
+    "summary" : "javax.servlet package",
+    "versionInfo" : "7.0.72"
+  }, {
+    "SPDXID" : "SPDXRef-gnrtd16",
+    "copyrightText" : "UNSPECIFIED",
+    "description" : "Tomcat Core Logging Package",
+    "downloadLocation" : "NOASSERTION",
+    "filesAnalyzed" : false,
+    "homepage" : "http://tomcat.apache.org/",
+    "licenseConcluded" : "NOASSERTION",
+    "licenseDeclared" : "Apache-2.0",
+    "name" : "tomcat-juli",
+    "summary" : "Tomcat Core Logging Package",
+    "versionInfo" : "7.0.72"
+  }, {
+    "SPDXID" : "SPDXRef-gnrtd20",
+    "copyrightText" : "UNSPECIFIED",
+    "description" : "Tomcats JSP Parser",
+    "downloadLocation" : "NOASSERTION",
+    "filesAnalyzed" : false,
+    "homepage" : "http://tomcat.apache.org/",
+    "licenseConcluded" : "NOASSERTION",
+    "licenseDeclared" : "Apache-2.0",
+    "name" : "tomcat-jasper",
+    "summary" : "Tomcats JSP Parser",
+    "versionInfo" : "7.0.72"
+  }, {
+    "SPDXID" : "SPDXRef-gnrtd21",
+    "copyrightText" : "UNSPECIFIED",
+    "description" : "JSP package",
+    "downloadLocation" : "NOASSERTION",
+    "filesAnalyzed" : false,
+    "homepage" : "http://tomcat.apache.org/",
+    "licenseConcluded" : "NOASSERTION",
+    "licenseDeclared" : "NOASSERTION",
+    "name" : "tomcat-jsp-api",
+    "summary" : "JSP package",
+    "versionInfo" : "7.0.72"
+  }, {
+    "SPDXID" : "SPDXRef-gnrtd24",
+    "copyrightText" : "UNSPECIFIED",
+    "description" : "Jasper Expression Language Impl",
+    "downloadLocation" : "NOASSERTION",
+    "filesAnalyzed" : false,
+    "homepage" : "http://tomcat.apache.org/",
+    "licenseConcluded" : "NOASSERTION",
+    "licenseDeclared" : "Apache-2.0",
+    "name" : "tomcat-jasper-el",
+    "summary" : "Jasper Expression Language Impl",
+    "versionInfo" : "7.0.72"
+  }, {
+    "SPDXID" : "SPDXRef-gnrtd25",
+    "copyrightText" : "UNSPECIFIED",
+    "description" : "Tomcat Connectors and HTTP parser",
+    "downloadLocation" : "NOASSERTION",
+    "filesAnalyzed" : false,
+    "homepage" : "http://tomcat.apache.org/",
+    "licenseConcluded" : "NOASSERTION",
+    "licenseDeclared" : "Apache-2.0",
+    "name" : "tomcat-coyote",
+    "summary" : "Tomcat Connectors and HTTP parser",
+    "versionInfo" : "7.0.72"
+  }, {
+    "SPDXID" : "SPDXRef-gnrtd22",
+    "copyrightText" : "UNSPECIFIED",
+    "description" : "Expression language package",
+    "downloadLocation" : "NOASSERTION",
+    "filesAnalyzed" : false,
+    "homepage" : "http://tomcat.apache.org/",
+    "licenseConcluded" : "NOASSERTION",
+    "licenseDeclared" : "Apache-2.0",
+    "name" : "tomcat-el-api",
+    "summary" : "Expression language package",
+    "versionInfo" : "7.0.72"
+  }, {
+    "SPDXID" : "SPDXRef-gnrtd23",
+    "copyrightText" : "UNSPECIFIED",
+    "description" : "Eclipse JDT Core Batch Compiler",
+    "downloadLocation" : "NOASSERTION",
+    "filesAnalyzed" : false,
+    "homepage" : "http://www.eclipse.org/jdt/",
+    "licenseConcluded" : "NOASSERTION",
+    "licenseDeclared" : "NOASSERTION",
+    "name" : "Eclipse ECJ",
+    "summary" : "Eclipse JDT Core Batch Compiler",
+    "versionInfo" : "4.4.2"
+  }, {
+    "SPDXID" : "SPDXRef-gnrtd26",
+    "copyrightText" : "UNSPECIFIED",
+    "description" : "The Apache Commons IO library contains utility classes, stream implementations, file filters,\nfile comparators, endian transformation classes, and much more.",
+    "downloadLocation" : "NOASSERTION",
+    "filesAnalyzed" : false,
+    "homepage" : "https://commons.apache.org/proper/commons-io/",
+    "licenseConcluded" : "NOASSERTION",
+    "licenseDeclared" : "Apache-2.0",
+    "name" : "Apache Commons IO",
+    "originator" : "Organization:The Apache Software Foundation",
+    "summary" : "The Apache Commons IO library contains utility classes, stream implementations, file filters,\nfile comparators, endian transformation classes, and much more.",
+    "versionInfo" : "2.12.0"
+  }, {
+    "SPDXID" : "SPDXRef-gnrtd27",
+    "checksums" : [ {
+      "algorithm" : "SHA1",
+      "checksumValue" : "19111f4744f77fe6a7170a2f36536d37fcc5c6e8"
+    } ],
+    "copyrightText" : "NOASSERTION",
+    "description" : "Apache Commons JCS is a distributed, versatile caching system.",
+    "downloadLocation" : "NOASSERTION",
+    "filesAnalyzed" : true,
+    "homepage" : "http://commons.apache.org/proper/commons-jcs/commons-jcs3-jcache-extras/",
+    "licenseConcluded" : "NOASSERTION",
+    "licenseDeclared" : "NOASSERTION",
+    "licenseInfoFromFiles" : [ "NOASSERTION" ],
+    "name" : "Apache Commons JCS :: JCache Extras",
+    "originator" : "Organization:The Apache Software Foundation",
+    "packageFileName" : "commons-jcs3-jcache-extras-3.2.1.jar",
+    "packageVerificationCode" : {
+      "packageVerificationCodeValue" : "ba370c09d7104dcb74255a7569cc6ae2f62fa4fe"
+    },
+    "primaryPackagePurpose" : "LIBRARY",
+    "summary" : "Apache Commons JCS is a distributed, versatile caching system.",
+    "supplier" : "Organization: The Apache Software Foundation",
+    "versionInfo" : "3.2.1"
+  } ],
+  "files" : [ {
+    "SPDXID" : "SPDXRef-gnrtd28",
+    "checksums" : [ {
+      "algorithm" : "SHA1",
+      "checksumValue" : "5b273951e5583053bb8f11150f46051c275b037a"
+    } ],
+    "copyrightText" : "NOASSERTION",
+    "fileName" : "./src/main/java/org/apache/commons/jcs3/jcache/extras/web/InMemoryResponse.java",
+    "fileTypes" : [ "SOURCE" ],
+    "licenseConcluded" : "NOASSERTION",
+    "licenseInfoInFiles" : [ "NOASSERTION" ]
+  }, {
+    "SPDXID" : "SPDXRef-gnrtd29",
+    "checksums" : [ {
+      "algorithm" : "SHA1",
+      "checksumValue" : "976f3469911b9e62f3af588002b18811101bd8b5"
+    } ],
+    "copyrightText" : "NOASSERTION",
+    "fileName" : "./src/main/java/org/apache/commons/jcs3/jcache/extras/web/JCacheFilter.java",
+    "fileTypes" : [ "SOURCE" ],
+    "licenseConcluded" : "NOASSERTION",
+    "licenseInfoInFiles" : [ "NOASSERTION" ]
+  }, {
+    "SPDXID" : "SPDXRef-gnrtd31",
+    "checksums" : [ {
+      "algorithm" : "SHA1",
+      "checksumValue" : "39c0393f7d88439eaf2a68302c1ba255f96d5f8a"
+    } ],
+    "copyrightText" : "NOASSERTION",
+    "fileName" : "./src/main/java/org/apache/commons/jcs3/jcache/extras/writer/AsyncCacheWriter.java",
+    "fileTypes" : [ "SOURCE" ],
+    "licenseConcluded" : "NOASSERTION",
+    "licenseInfoInFiles" : [ "NOASSERTION" ]
+  }, {
+    "SPDXID" : "SPDXRef-gnrtd32",
+    "checksums" : [ {
+      "algorithm" : "SHA1",
+      "checksumValue" : "ecf8fce4092a45ec0c2f0455db8ef1ed3da7257f"
+    } ],
+    "copyrightText" : "NOASSERTION",
+    "fileName" : "./src/main/java/org/apache/commons/jcs3/jcache/extras/writer/CacheWriterAdapter.java",
+    "fileTypes" : [ "SOURCE" ],
+    "licenseConcluded" : "NOASSERTION",
+    "licenseInfoInFiles" : [ "NOASSERTION" ]
+  }, {
+    "SPDXID" : "SPDXRef-gnrtd30",
+    "checksums" : [ {
+      "algorithm" : "SHA1",
+      "checksumValue" : "7254e4502e0f4e5fcf6b4009c50b255bb4a4d5ed"
+    } ],
+    "copyrightText" : "NOASSERTION",
+    "fileName" : "./src/main/java/org/apache/commons/jcs3/jcache/extras/writer/CompositeCacheWriter.java",
+    "fileTypes" : [ "SOURCE" ],
+    "licenseConcluded" : "NOASSERTION",
+    "licenseInfoInFiles" : [ "NOASSERTION" ]
+  }, {
+    "SPDXID" : "SPDXRef-gnrtd35",
+    "checksums" : [ {
+      "algorithm" : "SHA1",
+      "checksumValue" : "31d1b83e0c34a0410d6e1def43717cb10cf74562"
+    } ],
+    "copyrightText" : "NOASSERTION",
+    "fileName" : "./src/main/java/org/apache/commons/jcs3/jcache/extras/cdi/CacheManagerBean.java",
+    "fileTypes" : [ "SOURCE" ],
+    "licenseConcluded" : "NOASSERTION",
+    "licenseInfoInFiles" : [ "NOASSERTION" ]
+  }, {
+    "SPDXID" : "SPDXRef-gnrtd36",
+    "checksums" : [ {
+      "algorithm" : "SHA1",
+      "checksumValue" : "5d4b728272f7f1213b3ecfbcd74f9ce3c8806366"
+    } ],
+    "copyrightText" : "NOASSERTION",
+    "fileName" : "./src/main/java/org/apache/commons/jcs3/jcache/extras/cdi/DefaultLiteral.java",
+    "fileTypes" : [ "SOURCE" ],
+    "licenseConcluded" : "NOASSERTION",
+    "licenseInfoInFiles" : [ "NOASSERTION" ]
+  }, {
+    "SPDXID" : "SPDXRef-gnrtd33",
+    "checksums" : [ {
+      "algorithm" : "SHA1",
+      "checksumValue" : "a3704aacb38f5815bfbd45876fde4dd8d78e705b"
+    } ],
+    "copyrightText" : "NOASSERTION",
+    "fileName" : "./src/main/java/org/apache/commons/jcs3/jcache/extras/cdi/AnyLiteral.java",
+    "fileTypes" : [ "SOURCE" ],
+    "licenseConcluded" : "NOASSERTION",
+    "licenseInfoInFiles" : [ "NOASSERTION" ]
+  }, {
+    "SPDXID" : "SPDXRef-gnrtd34",
+    "checksums" : [ {
+      "algorithm" : "SHA1",
+      "checksumValue" : "3beb78952eab3f35f8b58fc117c960f550351fbf"
+    } ],
+    "copyrightText" : "NOASSERTION",
+    "fileName" : "./src/main/java/org/apache/commons/jcs3/jcache/extras/cdi/ExtraJCacheExtension.java",
+    "fileTypes" : [ "SOURCE" ],
+    "licenseConcluded" : "NOASSERTION",
+    "licenseInfoInFiles" : [ "NOASSERTION" ]
+  }, {
+    "SPDXID" : "SPDXRef-gnrtd39",
+    "checksums" : [ {
+      "algorithm" : "SHA1",
+      "checksumValue" : "768eea11f7a618712f68ac06cdf48d6d66b43e11"
+    } ],
+    "copyrightText" : "NOASSERTION",
+    "fileName" : "./src/main/java/org/apache/commons/jcs3/jcache/extras/loader/CompositeCacheLoader.java",
+    "fileTypes" : [ "SOURCE" ],
+    "licenseConcluded" : "NOASSERTION",
+    "licenseInfoInFiles" : [ "NOASSERTION" ]
+  }, {
+    "SPDXID" : "SPDXRef-gnrtd37",
+    "checksums" : [ {
+      "algorithm" : "SHA1",
+      "checksumValue" : "02eb64b02bebfea074fd5b6fdc28c9f7bb3f686a"
+    } ],
+    "copyrightText" : "NOASSERTION",
+    "fileName" : "./src/main/java/org/apache/commons/jcs3/jcache/extras/cdi/CacheProviderBean.java",
+    "fileTypes" : [ "SOURCE" ],
+    "licenseConcluded" : "NOASSERTION",
+    "licenseInfoInFiles" : [ "NOASSERTION" ]
+  }, {
+    "SPDXID" : "SPDXRef-gnrtd38",
+    "checksums" : [ {
+      "algorithm" : "SHA1",
+      "checksumValue" : "cdf1693def2ff45ecad2e2ffba706463bc650496"
+    } ],
+    "copyrightText" : "NOASSERTION",
+    "fileName" : "./src/main/java/org/apache/commons/jcs3/jcache/extras/loader/CacheLoaderAdapter.java",
+    "fileTypes" : [ "SOURCE" ],
+    "licenseConcluded" : "NOASSERTION",
+    "licenseInfoInFiles" : [ "NOASSERTION" ]
+  }, {
+    "SPDXID" : "SPDXRef-gnrtd42",
+    "checksums" : [ {
+      "algorithm" : "SHA1",
+      "checksumValue" : "7043897c382b0d7e97d70251106a8c5a5181b5b9"
+    } ],
+    "copyrightText" : "NOASSERTION",
+    "fileName" : "./src/test/java/org/apache/commons/jcs3/jcache/extras/writer/CompositeCacheWriterTest.java",
+    "fileTypes" : [ "SOURCE" ],
+    "licenseConcluded" : "NOASSERTION",
+    "licenseInfoInFiles" : [ "NOASSERTION" ]
+  }, {
+    "SPDXID" : "SPDXRef-gnrtd43",
+    "checksums" : [ {
+      "algorithm" : "SHA1",
+      "checksumValue" : "8153a949c987bfec4aaea9e95314013e6b6e0523"
+    } ],
+    "copyrightText" : "NOASSERTION",
+    "fileName" : "./src/test/java/org/apache/commons/jcs3/jcache/extras/writer/CacheWriterAdapterTest.java",
+    "fileTypes" : [ "SOURCE" ],
+    "licenseConcluded" : "NOASSERTION",
+    "licenseInfoInFiles" : [ "NOASSERTION" ]
+  }, {
+    "SPDXID" : "SPDXRef-gnrtd40",
+    "checksums" : [ {
+      "algorithm" : "SHA1",
+      "checksumValue" : "4cdb1f0d3fc69043d4a32ac6907ab0e2d62885f7"
+    } ],
+    "copyrightText" : "NOASSERTION",
+    "fileName" : "./src/main/java/org/apache/commons/jcs3/jcache/extras/closeable/Closeables.java",
+    "fileTypes" : [ "SOURCE" ],
+    "licenseConcluded" : "NOASSERTION",
+    "licenseInfoInFiles" : [ "NOASSERTION" ]
+  }, {
+    "SPDXID" : "SPDXRef-gnrtd41",
+    "checksums" : [ {
+      "algorithm" : "SHA1",
+      "checksumValue" : "bd2ab2eb8e60b662e933da2e23741d06f43a75ec"
+    } ],
+    "copyrightText" : "NOASSERTION",
+    "fileName" : "./src/test/java/org/apache/commons/jcs3/jcache/extras/web/JCacheFilterTest.java",
+    "fileTypes" : [ "SOURCE" ],
+    "licenseConcluded" : "NOASSERTION",
+    "licenseInfoInFiles" : [ "NOASSERTION" ]
+  }, {
+    "SPDXID" : "SPDXRef-gnrtd46",
+    "checksums" : [ {
+      "algorithm" : "SHA1",
+      "checksumValue" : "c271db42c88e06c69fda43d868d351003ce47a4d"
+    } ],
+    "copyrightText" : "NOASSERTION",
+    "fileName" : "./src/test/java/org/apache/commons/jcs3/jcache/extras/loader/CompositeCacheLoaderTest.java",
+    "fileTypes" : [ "SOURCE" ],
+    "licenseConcluded" : "NOASSERTION",
+    "licenseInfoInFiles" : [ "NOASSERTION" ]
+  }, {
+    "SPDXID" : "SPDXRef-gnrtd47",
+    "checksums" : [ {
+      "algorithm" : "SHA1",
+      "checksumValue" : "922b9bfac521baca3bd7ca10a8ab557277b0248f"
+    } ],
+    "copyrightText" : "NOASSERTION",
+    "fileName" : "./src/test/java/org/apache/commons/jcs3/jcache/extras/InternalCacheRule.java",
+    "fileTypes" : [ "SOURCE" ],
+    "licenseConcluded" : "NOASSERTION",
+    "licenseInfoInFiles" : [ "NOASSERTION" ]
+  }, {
+    "SPDXID" : "SPDXRef-gnrtd44",
+    "checksums" : [ {
+      "algorithm" : "SHA1",
+      "checksumValue" : "a8a11d8b4fa13d56f3c60a49470fe489237973b7"
+    } ],
+    "copyrightText" : "NOASSERTION",
+    "fileName" : "./src/test/java/org/apache/commons/jcs3/jcache/extras/cdi/ExtraJCacheExtensionTest.java",
+    "fileTypes" : [ "SOURCE" ],
+    "licenseConcluded" : "NOASSERTION",
+    "licenseInfoInFiles" : [ "NOASSERTION" ]
+  }, {
+    "SPDXID" : "SPDXRef-gnrtd45",
+    "checksums" : [ {
+      "algorithm" : "SHA1",
+      "checksumValue" : "9da91767046f4648c60e736b2fe53bd9ab85a80d"
+    } ],
+    "copyrightText" : "NOASSERTION",
+    "fileName" : "./src/test/java/org/apache/commons/jcs3/jcache/extras/loader/CacheLoaderAdapterTest.java",
+    "fileTypes" : [ "SOURCE" ],
+    "licenseConcluded" : "NOASSERTION",
+    "licenseInfoInFiles" : [ "NOASSERTION" ]
+  }, {
+    "SPDXID" : "SPDXRef-gnrtd48",
+    "checksums" : [ {
+      "algorithm" : "SHA1",
+      "checksumValue" : "1407178fab0e105b5dd2de7741e1c8b491018e5a"
+    } ],
+    "copyrightText" : "NOASSERTION",
+    "fileName" : "./src/main/resources/META-INF/services/javax.enterprise.inject.spi.Extension",
+    "fileTypes" : [ "OTHER" ],
+    "licenseConcluded" : "NOASSERTION",
+    "licenseInfoInFiles" : [ "NOASSERTION" ]
+  }, {
+    "SPDXID" : "SPDXRef-gnrtd49",
+    "checksums" : [ {
+      "algorithm" : "SHA1",
+      "checksumValue" : "2b8b815229aa8a61e483fb4ba0588b8b6c491890"
+    } ],
+    "copyrightText" : "NOASSERTION",
+    "fileName" : "./target/maven-shared-archive-resources/META-INF/LICENSE",
+    "fileTypes" : [ "OTHER" ],
+    "licenseConcluded" : "NOASSERTION",
+    "licenseInfoInFiles" : [ "NOASSERTION" ]
+  }, {
+    "SPDXID" : "SPDXRef-gnrtd50",
+    "checksums" : [ {
+      "algorithm" : "SHA1",
+      "checksumValue" : "e78391348ec104149e53d452110b9585242b56f0"
+    } ],
+    "copyrightText" : "NOASSERTION",
+    "fileName" : "./target/maven-shared-archive-resources/META-INF/DEPENDENCIES",
+    "fileTypes" : [ "OTHER" ],
+    "licenseConcluded" : "NOASSERTION",
+    "licenseInfoInFiles" : [ "NOASSERTION" ]
+  }, {
+    "SPDXID" : "SPDXRef-gnrtd51",
+    "checksums" : [ {
+      "algorithm" : "SHA1",
+      "checksumValue" : "8ebdd88a9467f9384b1886223876fb58939f7485"
+    } ],
+    "copyrightText" : "NOASSERTION",
+    "fileName" : "./target/maven-shared-archive-resources/META-INF/NOTICE",
+    "fileTypes" : [ "OTHER" ],
+    "licenseConcluded" : "NOASSERTION",
+    "licenseInfoInFiles" : [ "NOASSERTION" ]
+  } ],
+  "relationships" : [ {
+    "spdxElementId" : "SPDXRef-DOCUMENT",
+    "relationshipType" : "DESCRIBES",
+    "relatedSpdxElement" : "SPDXRef-gnrtd27",
+    "comment" : ""
+  }, {
+    "spdxElementId" : "SPDXRef-gnrtd8",
+    "relationshipType" : "TEST_DEPENDENCY_OF",
+    "relatedSpdxElement" : "SPDXRef-gnrtd27",
+    "comment" : "Relationship created based on Maven POM information"
+  }, {
+    "spdxElementId" : "SPDXRef-gnrtd9",
+    "relationshipType" : "TEST_DEPENDENCY_OF",
+    "relatedSpdxElement" : "SPDXRef-gnrtd27",
+    "comment" : "Relationship created based on Maven POM information"
+  }, {
+    "spdxElementId" : "SPDXRef-gnrtd6",
+    "relationshipType" : "TEST_DEPENDENCY_OF",
+    "relatedSpdxElement" : "SPDXRef-gnrtd27",
+    "comment" : "Relationship created based on Maven POM information"
+  }, {
+    "spdxElementId" : "SPDXRef-gnrtd7",
+    "relationshipType" : "TEST_DEPENDENCY_OF",
+    "relatedSpdxElement" : "SPDXRef-gnrtd27",
+    "comment" : "Relationship created based on Maven POM information"
+  }, {
+    "spdxElementId" : "SPDXRef-gnrtd10",
+    "relationshipType" : "TEST_DEPENDENCY_OF",
+    "relatedSpdxElement" : "SPDXRef-gnrtd27",
+    "comment" : "Relationship created based on Maven POM information"
+  }, {
+    "spdxElementId" : "SPDXRef-gnrtd19",
+    "relationshipType" : "TEST_DEPENDENCY_OF",
+    "relatedSpdxElement" : "SPDXRef-gnrtd27",
+    "comment" : "Relationship created based on Maven POM information"
+  }, {
+    "spdxElementId" : "SPDXRef-gnrtd13",
+    "relationshipType" : "TEST_DEPENDENCY_OF",
+    "relatedSpdxElement" : "SPDXRef-gnrtd27",
+    "comment" : "Relationship created based on Maven POM information"
+  }, {
+    "spdxElementId" : "SPDXRef-gnrtd14",
+    "relationshipType" : "TEST_DEPENDENCY_OF",
+    "relatedSpdxElement" : "SPDXRef-gnrtd27",
+    "comment" : "Relationship created based on Maven POM information"
+  }, {
+    "spdxElementId" : "SPDXRef-gnrtd11",
+    "relationshipType" : "TEST_DEPENDENCY_OF",
+    "relatedSpdxElement" : "SPDXRef-gnrtd27",
+    "comment" : "Relationship created based on Maven POM information"
+  }, {
+    "spdxElementId" : "SPDXRef-gnrtd12",
+    "relationshipType" : "TEST_DEPENDENCY_OF",
+    "relatedSpdxElement" : "SPDXRef-gnrtd27",
+    "comment" : "Relationship created based on Maven POM information"
+  }, {
+    "spdxElementId" : "SPDXRef-gnrtd17",
+    "relationshipType" : "TEST_DEPENDENCY_OF",
+    "relatedSpdxElement" : "SPDXRef-gnrtd27",
+    "comment" : "Relationship created based on Maven POM information"
+  }, {
+    "spdxElementId" : "SPDXRef-gnrtd18",
+    "relationshipType" : "TEST_DEPENDENCY_OF",
+    "relatedSpdxElement" : "SPDXRef-gnrtd27",
+    "comment" : "Relationship created based on Maven POM information"
+  }, {
+    "spdxElementId" : "SPDXRef-gnrtd15",
+    "relationshipType" : "TEST_DEPENDENCY_OF",
+    "relatedSpdxElement" : "SPDXRef-gnrtd27",
+    "comment" : "Relationship created based on Maven POM information"
+  }, {
+    "spdxElementId" : "SPDXRef-gnrtd16",
+    "relationshipType" : "TEST_DEPENDENCY_OF",
+    "relatedSpdxElement" : "SPDXRef-gnrtd27",
+    "comment" : "Relationship created based on Maven POM information"
+  }, {
+    "spdxElementId" : "SPDXRef-gnrtd20",
+    "relationshipType" : "TEST_DEPENDENCY_OF",
+    "relatedSpdxElement" : "SPDXRef-gnrtd27",
+    "comment" : "Relationship created based on Maven POM information"
+  }, {
+    "spdxElementId" : "SPDXRef-gnrtd21",
+    "relationshipType" : "TEST_DEPENDENCY_OF",
+    "relatedSpdxElement" : "SPDXRef-gnrtd27",
+    "comment" : "Relationship created based on Maven POM information"
+  }, {
+    "spdxElementId" : "SPDXRef-gnrtd24",
+    "relationshipType" : "TEST_DEPENDENCY_OF",
+    "relatedSpdxElement" : "SPDXRef-gnrtd27",
+    "comment" : "Relationship created based on Maven POM information"
+  }, {
+    "spdxElementId" : "SPDXRef-gnrtd25",
+    "relationshipType" : "TEST_DEPENDENCY_OF",
+    "relatedSpdxElement" : "SPDXRef-gnrtd27",
+    "comment" : "Relationship created based on Maven POM information"
+  }, {
+    "spdxElementId" : "SPDXRef-gnrtd22",
+    "relationshipType" : "TEST_DEPENDENCY_OF",
+    "relatedSpdxElement" : "SPDXRef-gnrtd27",
+    "comment" : "Relationship created based on Maven POM information"
+  }, {
+    "spdxElementId" : "SPDXRef-gnrtd23",
+    "relationshipType" : "TEST_DEPENDENCY_OF",
+    "relatedSpdxElement" : "SPDXRef-gnrtd27",
+    "comment" : "Relationship created based on Maven POM information"
+  }, {
+    "spdxElementId" : "SPDXRef-gnrtd26",
+    "relationshipType" : "TEST_DEPENDENCY_OF",
+    "relatedSpdxElement" : "SPDXRef-gnrtd27",
+    "comment" : "Relationship created based on Maven POM information"
+  }, {
+    "spdxElementId" : "SPDXRef-gnrtd27",
+    "relationshipType" : "OTHER",
+    "relatedSpdxElement" : "SPDXRef-gnrtd1",
+    "comment" : "Relationship based on Maven POM file dependency information"
+  }, {
+    "spdxElementId" : "SPDXRef-gnrtd27",
+    "relationshipType" : "OTHER",
+    "relatedSpdxElement" : "SPDXRef-gnrtd0",
+    "comment" : "Relationship based on Maven POM file dependency information"
+  }, {
+    "spdxElementId" : "SPDXRef-gnrtd27",
+    "relationshipType" : "CONTAINS",
+    "relatedSpdxElement" : "SPDXRef-gnrtd44"
+  }, {
+    "spdxElementId" : "SPDXRef-gnrtd27",
+    "relationshipType" : "CONTAINS",
+    "relatedSpdxElement" : "SPDXRef-gnrtd49"
+  }, {
+    "spdxElementId" : "SPDXRef-gnrtd27",
+    "relationshipType" : "OTHER",
+    "relatedSpdxElement" : "SPDXRef-gnrtd4",
+    "comment" : "Relationship based on Maven POM file dependency information"
+  }, {
+    "spdxElementId" : "SPDXRef-gnrtd27",
+    "relationshipType" : "OTHER",
+    "relatedSpdxElement" : "SPDXRef-gnrtd3",
+    "comment" : "Relationship based on Maven POM file dependency information"
+  }, {
+    "spdxElementId" : "SPDXRef-gnrtd27",
+    "relationshipType" : "OTHER",
+    "relatedSpdxElement" : "SPDXRef-gnrtd2",
+    "comment" : "Relationship based on Maven POM file dependency information"
+  }, {
+    "spdxElementId" : "SPDXRef-gnrtd27",
+    "relationshipType" : "CONTAINS",
+    "relatedSpdxElement" : "SPDXRef-gnrtd39"
+  }, {
+    "spdxElementId" : "SPDXRef-gnrtd27",
+    "relationshipType" : "CONTAINS",
+    "relatedSpdxElement" : "SPDXRef-gnrtd42"
+  }, {
+    "spdxElementId" : "SPDXRef-gnrtd27",
+    "relationshipType" : "CONTAINS",
+    "relatedSpdxElement" : "SPDXRef-gnrtd45"
+  }, {
+    "spdxElementId" : "SPDXRef-gnrtd27",
+    "relationshipType" : "CONTAINS",
+    "relatedSpdxElement" : "SPDXRef-gnrtd35"
+  }, {
+    "spdxElementId" : "SPDXRef-gnrtd27",
+    "relationshipType" : "OTHER",
+    "relatedSpdxElement" : "SPDXRef-gnrtd5",
+    "comment" : "Relationship based on Maven POM file dependency information"
+  }, {
+    "spdxElementId" : "SPDXRef-gnrtd27",
+    "relationshipType" : "CONTAINS",
+    "relatedSpdxElement" : "SPDXRef-gnrtd47"
+  }, {
+    "spdxElementId" : "SPDXRef-gnrtd27",
+    "relationshipType" : "CONTAINS",
+    "relatedSpdxElement" : "SPDXRef-gnrtd34"
+  }, {
+    "spdxElementId" : "SPDXRef-gnrtd27",
+    "relationshipType" : "CONTAINS",
+    "relatedSpdxElement" : "SPDXRef-gnrtd29"
+  }, {
+    "spdxElementId" : "SPDXRef-gnrtd27",
+    "relationshipType" : "CONTAINS",
+    "relatedSpdxElement" : "SPDXRef-gnrtd50"
+  }, {
+    "spdxElementId" : "SPDXRef-gnrtd27",
+    "relationshipType" : "CONTAINS",
+    "relatedSpdxElement" : "SPDXRef-gnrtd46"
+  }, {
+    "spdxElementId" : "SPDXRef-gnrtd27",
+    "relationshipType" : "CONTAINS",
+    "relatedSpdxElement" : "SPDXRef-gnrtd40"
+  }, {
+    "spdxElementId" : "SPDXRef-gnrtd27",
+    "relationshipType" : "CONTAINS",
+    "relatedSpdxElement" : "SPDXRef-gnrtd28"
+  }, {
+    "spdxElementId" : "SPDXRef-gnrtd27",
+    "relationshipType" : "CONTAINS",
+    "relatedSpdxElement" : "SPDXRef-gnrtd30"
+  }, {
+    "spdxElementId" : "SPDXRef-gnrtd27",
+    "relationshipType" : "CONTAINS",
+    "relatedSpdxElement" : "SPDXRef-gnrtd31"
+  }, {
+    "spdxElementId" : "SPDXRef-gnrtd27",
+    "relationshipType" : "CONTAINS",
+    "relatedSpdxElement" : "SPDXRef-gnrtd41"
+  }, {
+    "spdxElementId" : "SPDXRef-gnrtd27",
+    "relationshipType" : "CONTAINS",
+    "relatedSpdxElement" : "SPDXRef-gnrtd36"
+  }, {
+    "spdxElementId" : "SPDXRef-gnrtd27",
+    "relationshipType" : "CONTAINS",
+    "relatedSpdxElement" : "SPDXRef-gnrtd37"
+  }, {
+    "spdxElementId" : "SPDXRef-gnrtd27",
+    "relationshipType" : "CONTAINS",
+    "relatedSpdxElement" : "SPDXRef-gnrtd48"
+  }, {
+    "spdxElementId" : "SPDXRef-gnrtd27",
+    "relationshipType" : "CONTAINS",
+    "relatedSpdxElement" : "SPDXRef-gnrtd43"
+  }, {
+    "spdxElementId" : "SPDXRef-gnrtd27",
+    "relationshipType" : "CONTAINS",
+    "relatedSpdxElement" : "SPDXRef-gnrtd33"
+  }, {
+    "spdxElementId" : "SPDXRef-gnrtd27",
+    "relationshipType" : "CONTAINS",
+    "relatedSpdxElement" : "SPDXRef-gnrtd51"
+  }, {
+    "spdxElementId" : "SPDXRef-gnrtd27",
+    "relationshipType" : "CONTAINS",
+    "relatedSpdxElement" : "SPDXRef-gnrtd32"
+  }, {
+    "spdxElementId" : "SPDXRef-gnrtd27",
+    "relationshipType" : "CONTAINS",
+    "relatedSpdxElement" : "SPDXRef-gnrtd38"
+  }, {
+    "spdxElementId" : "SPDXRef-gnrtd28",
+    "relationshipType" : "GENERATES",
+    "relatedSpdxElement" : "SPDXRef-gnrtd27",
+    "comment" : ""
+  }, {
+    "spdxElementId" : "SPDXRef-gnrtd29",
+    "relationshipType" : "GENERATES",
+    "relatedSpdxElement" : "SPDXRef-gnrtd27",
+    "comment" : ""
+  }, {
+    "spdxElementId" : "SPDXRef-gnrtd31",
+    "relationshipType" : "GENERATES",
+    "relatedSpdxElement" : "SPDXRef-gnrtd27",
+    "comment" : ""
+  }, {
+    "spdxElementId" : "SPDXRef-gnrtd32",
+    "relationshipType" : "GENERATES",
+    "relatedSpdxElement" : "SPDXRef-gnrtd27",
+    "comment" : ""
+  }, {
+    "spdxElementId" : "SPDXRef-gnrtd30",
+    "relationshipType" : "GENERATES",
+    "relatedSpdxElement" : "SPDXRef-gnrtd27",
+    "comment" : ""
+  }, {
+    "spdxElementId" : "SPDXRef-gnrtd35",
+    "relationshipType" : "GENERATES",
+    "relatedSpdxElement" : "SPDXRef-gnrtd27",
+    "comment" : ""
+  }, {
+    "spdxElementId" : "SPDXRef-gnrtd36",
+    "relationshipType" : "GENERATES",
+    "relatedSpdxElement" : "SPDXRef-gnrtd27",
+    "comment" : ""
+  }, {
+    "spdxElementId" : "SPDXRef-gnrtd33",
+    "relationshipType" : "GENERATES",
+    "relatedSpdxElement" : "SPDXRef-gnrtd27",
+    "comment" : ""
+  }, {
+    "spdxElementId" : "SPDXRef-gnrtd34",
+    "relationshipType" : "GENERATES",
+    "relatedSpdxElement" : "SPDXRef-gnrtd27",
+    "comment" : ""
+  }, {
+    "spdxElementId" : "SPDXRef-gnrtd39",
+    "relationshipType" : "GENERATES",
+    "relatedSpdxElement" : "SPDXRef-gnrtd27",
+    "comment" : ""
+  }, {
+    "spdxElementId" : "SPDXRef-gnrtd37",
+    "relationshipType" : "GENERATES",
+    "relatedSpdxElement" : "SPDXRef-gnrtd27",
+    "comment" : ""
+  }, {
+    "spdxElementId" : "SPDXRef-gnrtd38",
+    "relationshipType" : "GENERATES",
+    "relatedSpdxElement" : "SPDXRef-gnrtd27",
+    "comment" : ""
+  }, {
+    "spdxElementId" : "SPDXRef-gnrtd42",
+    "relationshipType" : "TEST_CASE_OF",
+    "relatedSpdxElement" : "SPDXRef-gnrtd27",
+    "comment" : ""
+  }, {
+    "spdxElementId" : "SPDXRef-gnrtd43",
+    "relationshipType" : "TEST_CASE_OF",
+    "relatedSpdxElement" : "SPDXRef-gnrtd27",
+    "comment" : ""
+  }, {
+    "spdxElementId" : "SPDXRef-gnrtd40",
+    "relationshipType" : "GENERATES",
+    "relatedSpdxElement" : "SPDXRef-gnrtd27",
+    "comment" : ""
+  }, {
+    "spdxElementId" : "SPDXRef-gnrtd41",
+    "relationshipType" : "TEST_CASE_OF",
+    "relatedSpdxElement" : "SPDXRef-gnrtd27",
+    "comment" : ""
+  }, {
+    "spdxElementId" : "SPDXRef-gnrtd46",
+    "relationshipType" : "TEST_CASE_OF",
+    "relatedSpdxElement" : "SPDXRef-gnrtd27",
+    "comment" : ""
+  }, {
+    "spdxElementId" : "SPDXRef-gnrtd47",
+    "relationshipType" : "TEST_CASE_OF",
+    "relatedSpdxElement" : "SPDXRef-gnrtd27",
+    "comment" : ""
+  }, {
+    "spdxElementId" : "SPDXRef-gnrtd44",
+    "relationshipType" : "TEST_CASE_OF",
+    "relatedSpdxElement" : "SPDXRef-gnrtd27",
+    "comment" : ""
+  }, {
+    "spdxElementId" : "SPDXRef-gnrtd45",
+    "relationshipType" : "TEST_CASE_OF",
+    "relatedSpdxElement" : "SPDXRef-gnrtd27",
+    "comment" : ""
+  }, {
+    "spdxElementId" : "SPDXRef-gnrtd48",
+    "relationshipType" : "CONTAINED_BY",
+    "relatedSpdxElement" : "SPDXRef-gnrtd27",
+    "comment" : ""
+  }, {
+    "spdxElementId" : "SPDXRef-gnrtd49",
+    "relationshipType" : "CONTAINED_BY",
+    "relatedSpdxElement" : "SPDXRef-gnrtd27",
+    "comment" : ""
+  }, {
+    "spdxElementId" : "SPDXRef-gnrtd50",
+    "relationshipType" : "CONTAINED_BY",
+    "relatedSpdxElement" : "SPDXRef-gnrtd27",
+    "comment" : ""
+  }, {
+    "spdxElementId" : "SPDXRef-gnrtd51",
+    "relationshipType" : "CONTAINED_BY",
+    "relatedSpdxElement" : "SPDXRef-gnrtd27",
+    "comment" : ""
+  } ]
+}
