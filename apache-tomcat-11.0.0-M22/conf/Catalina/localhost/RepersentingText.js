@@ -19,19 +19,6 @@ Left Digit(s)			 0	1	2	3	4	5	6	7	8	9
 11						d	e	f	g	h	i	j	k	l	m
 12						n	o	p	q	r	s	t	u	v	w
 13						x	y	z	{	|	}	~	DEL
-
-
-
-
-
-
-
-
-
-
-
-
-
 /**
  * 
  */
