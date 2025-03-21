@@ -13,14 +13,14 @@ that	$
 must	&
 well	%
 these	#
-
+— •   • •   — • —   — • —   • •
 Run Length Encoding, or Recurrance Coding:
 (a form of lossless compression)
 Ex:
 AAAAAAA						<-- this/any continous repetition is called a "run"
 Using the '*' as our flag, this string would 
 be encoded as: *A7
-
+— •   • •   — • —   — • —   • •
 Huffman Encoding:
 Ex:
 Huffman Code	Character
