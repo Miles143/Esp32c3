@@ -8,7 +8,7 @@ Boolean Expression:
 X = A'
 
 Logic Diagram Symbol:
-A --►-- X
+A --►•- X
 
 Truth Table:
 A		X
