@@ -1,0 +1,22 @@
+// Notes v2.1_4-4-2025 //
+
+NOT Gates:
+If the input value for a NOT gate is 0, the output value is 1, and if the input
+value is 1, the output value is 0. The NOT gate is also called an inverter. 
+Because it inverts the input value. 
+
+Boolean expressions for NOT gates:
+is repersented by ' after the variable being negated. And sometimes, this is
+also represented by a bar over the varibale being negated. This is called an
+assignment statement. 
+Ex:           _
+	X=A' or X=A
+Logic diagram:
+ is a circle found on the input and outputs of logic gates. This is called 
+ the inversion bubble. A logic diagram is a trianlge with an inversion bubble
+ on the end.
+ Ex:
+ 	∆•
+ 	
+ AND Gates:
+ 
