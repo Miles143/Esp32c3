@@ -18,5 +18,9 @@ Logic diagram:
  Ex:
  	∆•
  	
- AND Gates:
+The Logic Diagram Symbol for a NOT gate is a triangle with a small circle on the
+end called an inversion bubble. The input and output shown as lines flowing into
+the and out of the gate. Sometimes these lines are labeled, but not always.
+Ex:
+   --►·
  
