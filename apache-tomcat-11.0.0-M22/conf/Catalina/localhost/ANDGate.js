@@ -10,9 +10,9 @@ Boolean Expression:
 		
 		Logic Diagram:
 			A
-			 ---►•
+			 ---►
 			 		X
-			 ---►•
+			 ---►
 			B
 		Truth Table: 
 		A        B		X
