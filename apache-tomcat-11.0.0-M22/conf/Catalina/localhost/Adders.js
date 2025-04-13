@@ -13,10 +13,10 @@ This takes place at a digital logic level performed in binary.
 		Truth Table:
 		
 			A	B	SUM	CARRY
-			0	0	0	0
-			0	1	1	0
-			1	0	1	0
-			1	1	0	1
+		 // 0	0	0	0
+		 // 0	1	1	0
+		 // 1	0	1	0
+		 // 1	1	0	1
 			
 			Logic Circuit:
 			
@@ -42,14 +42,14 @@ value into account Two half-adders can be used to create a full-adder.
 Ex: Truth Table for Two Half-Adders:
 
 	        A	B   Carry-in	Sum	Carry-out
-			0	0	0			0	0
-			0	0	1			1	0
-			0	1	0			1	0
-			0	1	1			0	1
-			1	0	0			1	0
-			1	0	1			0	1
-			1	1	0			0	1
-			1	1	1			1	1
+		//	  0	0	0			0	0
+		//	  0	0	1			1	0
+		//	  0	1	0			1	0
+		//	  0	1	1			0	1
+		//	  1	0	0			1	0
+		//	  1	0	1			0	1
+		//	  1	1	0			0	1
+		//	  1	1	1			1	1
 			
 			Logic Diagram:
 			
