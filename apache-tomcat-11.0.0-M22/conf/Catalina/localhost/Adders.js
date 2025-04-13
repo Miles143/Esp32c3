@@ -64,7 +64,7 @@ Ex: Truth Table for Two Half-Adders:
          |  |   ___                 |___( OR)___Carry-out
 		 |  |__(AND)____________________(___)	
          |_____(___)
-		
+Note: There are three inputs this time A, B and the Carry-in.	
 /**    
  * 
  */
