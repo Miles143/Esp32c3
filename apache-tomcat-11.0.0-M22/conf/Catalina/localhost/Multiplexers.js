@@ -17,9 +17,9 @@ Ex:
 		//	of eight other input lines (D0-D7) are routed to the output(F). If S0-S2
 		// are all 0(binary) then the input line D0 would be the output from the multiplexer.
 
-		D0	D1	D2	D3	D4	D5	D6	D7
+₂ₙ		D0	D1	D2	D3	D4	D5	D6	D7
 		______________________________
-	S0 |                              |
+ₙ	S0 |                              |
 	S1 |                              |------F
 	S2 |______________________________|                         
 
