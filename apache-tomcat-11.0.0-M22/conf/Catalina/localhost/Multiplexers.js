@@ -38,7 +38,7 @@ Ex:
 		1	1	0	D6
 		1	1	1	D7
 
-	// A circuit called a demultiplexer performs the opposite operation, taking
+	// A circuit called a demultiplexer(demux) performs the opposite operation, taking
 		// a signle input and routing it to one of ₂ₙ outputs, depending in the values
 		//of the ₙ select control lines.
 /**
