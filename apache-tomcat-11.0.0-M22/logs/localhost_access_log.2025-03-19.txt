@@ -1,0 +1,17 @@
+0:0:0:0:0:0:0:1 - - [19/Mar/2025:13:45:48 -0400] "GET / HTTP/1.1" 200 11441
+0:0:0:0:0:0:0:1 - - [19/Mar/2025:13:45:48 -0400] "GET /tomcat.css HTTP/1.1" 304 -
+0:0:0:0:0:0:0:1 - - [19/Mar/2025:13:45:48 -0400] "GET /tomcat.svg HTTP/1.1" 304 -
+0:0:0:0:0:0:0:1 - - [19/Mar/2025:13:45:48 -0400] "GET /bg-upper.png HTTP/1.1" 304 -
+0:0:0:0:0:0:0:1 - - [19/Mar/2025:13:45:48 -0400] "GET /bg-nav.png HTTP/1.1" 304 -
+0:0:0:0:0:0:0:1 - - [19/Mar/2025:13:45:48 -0400] "GET /asf-logo-wide.svg HTTP/1.1" 304 -
+0:0:0:0:0:0:0:1 - - [19/Mar/2025:13:45:48 -0400] "GET /bg-button.png HTTP/1.1" 304 -
+0:0:0:0:0:0:0:1 - - [19/Mar/2025:13:45:48 -0400] "GET /bg-middle.png HTTP/1.1" 304 -
+0:0:0:0:0:0:0:1 - - [19/Mar/2025:13:45:51 -0400] "GET /examples/ HTTP/1.1" 200 1156
+0:0:0:0:0:0:0:1 - - [19/Mar/2025:13:45:53 -0400] "GET /examples/servlets HTTP/1.1" 302 -
+0:0:0:0:0:0:0:1 - - [19/Mar/2025:13:45:53 -0400] "GET /examples/servlets/ HTTP/1.1" 200 6516
+0:0:0:0:0:0:0:1 - - [19/Mar/2025:13:45:53 -0400] "GET /examples/servlets/images/code.gif HTTP/1.1" 200 292
+0:0:0:0:0:0:0:1 - - [19/Mar/2025:13:45:53 -0400] "GET /examples/servlets/images/execute.gif HTTP/1.1" 200 1242
+0:0:0:0:0:0:0:1 - - [19/Mar/2025:13:45:53 -0400] "GET /examples/servlets/images/return.gif HTTP/1.1" 200 1231
+0:0:0:0:0:0:0:1 - - [19/Mar/2025:13:46:01 -0400] "GET /examples/websocket/index.xhtml HTTP/1.1" 200 1299
+0:0:0:0:0:0:0:1 - - [19/Mar/2025:13:46:03 -0400] "GET /examples/websocket/snake.xhtml HTTP/1.1" 200 9629
+0:0:0:0:0:0:0:1 - - [19/Mar/2025:13:46:03 -0400] "GET /examples/websocket/snake HTTP/1.1" 101 -
