@@ -1,0 +1,75 @@
+// Computer Problem-Solving //
+
+
+
+Notes:
+	In the Problem-Solving process, there are three phases: the algorithm
+development phase(Analyze, Propose algorithm, Test algorithm), the implementation 
+phase(Code, Test), and the maintenance phase(Use, Maintain). The output from the 
+algorithm development phase is a plan for a solution. The output from the implementation
+phase is a working pc program that implements the algorithm, the actual solution to the 
+problem. the maintenance phase has zero outputs unless there is an error, if you the solution
+is sent back to the first phase.
+
+// Following an Algorithm //
+
+
+
+Notes:
+	To be an algorithm the steps must solve a problem.
+
+// Developing an Algorithm //
+
+
+
+Notes:
+	Top-down design(functional decomposition), and Object-Oriented design.
+Top-down design starts by breaking the problem into a set of subproblems, then 
+each problem is divided into subproblems, directly creating a hierarchical structure,
+a tree structure of problems and subproblems called modules. Modules can call on services
+of modules at lower levels. One module for example could read data values, another could
+sum data values, and another could print data values, while comparing overall entire sums.
+A module that needs to be expanded is called an abstract step. A step that does not need to
+be expanded is called a concrete step.
+
+			 Linear Equation 					} Level 0
+			   3𝑥 + 2𝑦 = 6
+				|
+    Solve for 𝑥			| 
+	|			|
+	|			|
+	|_______________________|_____________________________
+Solve for 𝑥		   Solve for 𝑦		   	Plot pairs on Graph	} Level 1
+substitute 𝑥 for...	   substitute 𝑦 for...
+       |			|			      |
+       ↓			↓			      ↓		
+simplify equation	   simplify equation					} Level 2
+       |			|			      |
+       ↓			|			      |
+multiply to get			|						} Level 3
+variable on one                 |			      |
+side.------------------->add output from 	              | 		} Level 4
+		        multiplication,			      ↓
+	    	        from 𝑥------------------------>Plot 𝑥 pairs on Graph	} Level 5
+				|
+			   Solve for 𝑦						} Level 6
+				|
+				↓
+			   3𝑥 + 2𝑦 = 6						} Level 6
+				↓
+    			   Solve for 𝑦						} Level 7
+				|
+				|
+	 _______________________↓_____________________________
+Solve for 𝑥		   Solve for 𝑦		   	Plot pairs on Graph	} Level 8
+substitute 𝑥 for...	   substitute 𝑦 for...
+       |			|			      |
+       ↓			↓			      ↓		
+simplify equation	   simplify equation					} Level 9
+       |			|			      |
+       ↓			|			      |
+multiply to get			|						} Level 10
+variable on one                 |			      |
+side.------------------->add output from 	              | 		} Level 11
+		        multiplication,			      ↓
+	    	        from 𝑥------------------------>Plot 𝑦 pairs on Graph	} Level 12
