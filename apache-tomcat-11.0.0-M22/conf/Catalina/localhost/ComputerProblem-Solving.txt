@@ -30,46 +30,47 @@ a tree structure of problems and subproblems called modules. Modules can call on
 of modules at lower levels. One module for example could read data values, another could
 sum data values, and another could print data values, while comparing overall entire sums.
 A module that needs to be expanded is called an abstract step. A step that does not need to
-be expanded is called a concrete step.
+be expanded is called a concrete step. In This example the levels of this particular forest
+is as follows the "Levels 0-12".
 
-			 Linear Equation 					} Level 0
+			 Linear Equation 					} Level 0 // Prompt *keyword
 			   3𝑥 + 2𝑦 = 6
 				|
     Solve for 𝑥			| 
 	|			|
 	|			|
 	|_______________________|_____________________________
-Solve for 𝑥		   Solve for 𝑦		   	Plot pairs on Graph	} Level 1
+Solve for 𝑥		   Solve for 𝑦		   	Plot pairs on Graph	} Level 1 // Write/While/Get
 substitute 𝑥 for...	   substitute 𝑦 for...
        |			|			      |
        ↓			↓			      ↓		
-simplify equation	   simplify equation					} Level 2
+simplify equation	   simplify equation					} Level 2 = // Put
        |			|			      |
        ↓			|			      |
-multiply to get			|						} Level 3
+multiply to get			|						} Level 3 = // If
 variable on one                 |			      |
-side.------------------->add output from 	              | 		} Level 4
+side.------------------->add output from 	              | 		} Level 4 = // Read/Write
 		        multiplication,			      ↓
-	    	        from 𝑥------------------------>Plot 𝑥 pairs on Graph	} Level 5
+	    	        from 𝑥------------------------>Plot 𝑥 pairs on Graph	} Level 5 = // Onscreen/Output
 				|
-			   Solve for 𝑦						} Level 6
+			   Solve for 𝑦						} Level 6 = // Prompt
 				|
 				↓
-			   3𝑥 + 2𝑦 = 6						} Level 6
+			   3𝑥 + 2𝑦 = 6						} Level 6 = // Prompt
 				↓
-    			   Solve for 𝑦						} Level 7
+    			   Solve for 𝑦						} Level 7 = // Prompt
 				|
 				|
 	 _______________________↓_____________________________
-Solve for 𝑥		   Solve for 𝑦		   	Plot pairs on Graph	} Level 8
+Solve for 𝑥		   Solve for 𝑦		   	Plot pairs on Graph	} Level 8 = // Write/While/Get
 substitute 𝑥 for...	   substitute 𝑦 for...
        |			|			      |
        ↓			↓			      ↓		
-simplify equation	   simplify equation					} Level 9
+simplify equation	   simplify equation					} Level 9 = // Put
        |			|			      |
        ↓			|			      |
-multiply to get			|						} Level 10
+multiply to get			|						} Level 10 = // If
 variable on one                 |			      |
-side.------------------->add output from 	              | 		} Level 11
+side.------------------->add output from 	              | 		} Level 11 = // Read/Write
 		        multiplication,			      ↓
-	    	        from 𝑥------------------------>Plot 𝑦 pairs on Graph	} Level 12
+	    	        from 𝑥------------------------>Plot 𝑦 pairs on Graph	} Level 12 = Onscreen/Output
