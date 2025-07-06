@@ -1,0 +1,97 @@
+// Computer Problem-Solving //
+
+
+
+Notes:
+	In the Problem-Solving process, there are three phases: the algorithm
+development phase(Analyze, Propose algorithm, Test algorithm), the implementation 
+phase(Code, Test), and the maintenance phase(Use, Maintain). The output from the 
+algorithm development phase is a plan for a solution. The output from the implementation
+phase is a working pc program that implements the algorithm, the actual solution to the 
+problem. the maintenance phase has zero outputs unless there is an error, if you the solution
+is sent back to the first phase.
+
+// Following an Algorithm //
+
+
+
+Notes:
+	To be an algorithm the steps must solve a problem.
+
+// Developing an Algorithm //
+
+
+
+Notes:
+	Top-down design(functional decomposition), and Object-Oriented design.
+Top-down design starts by breaking the problem into a set of subproblems, then 
+each problem is divided into subproblems, directly creating a hierarchical structure,
+a tree structure of problems and subproblems called modules. Modules can call on services
+of modules at lower levels. One module for example could read data values, another could
+sum data values, and another could print data values, while comparing overall entire sums.
+A module that needs to be expanded is called an abstract step. A step that does not need to
+be expanded is called a concrete step. In This example the levels of this particular forest
+is as follows the "Levels 0-12". Also relate is file titled ObjectOrientation-Relationships_between_Classes.txt
+is incorporated "Object-Oriented Design Methodology" by unknown author on 7/6/25 by PMM.
+
+		  'Class' Linear Equation 						} Level 0 // Prompt *keyword
+			   3𝑥 + 2𝑦 = 6
+			 (Fwd=CRC Header)	
+				|
+'Class' Solve for 𝑥		| 
+(Fwd=CRC Header)
+	|			|
+	|			|
+	|_______________________|_________________________________
+'Method' Solve for 𝑥	     Solve for 𝑦 		     Plot pairs on Graph		} Level 1 // Write/While/Get, What-if
+substitute 𝑥 for...	     substitute 𝑦 for...		      	      |
+(Fwd=CRC Header)	     (Fwd=CRC Header)			      |
+       |			|			      	      |
+       ↓			↓			      	      ↓		
+'Method' simplify equation   simplify equation		      	      |				} Level 2 = // Put
+(Fwd=CRC Header)	     (Fwd=CRC Header)			      |
+       |			|			      	      |
+       ↓			↓			      	      ↓
+'Method' multiply to get  'Method' multiply to get            	      |
+variable on one			   variable on one 	      	      |
+side.		   	   	   side.		      	      ↓				} Level 3 = // If
+(Fwd=CRC Header)		   (Fwd=CRC Header)		      |
+|                 		    		      	      	      |
+|---------------------->'Field' add output from 	              | 			} Level 4 = // Read/Write
+		                multiplication,			      ↓
+	    	                from 
+				(Fwd=CRC Header)𝑥------------------------>Plot 𝑥 pairs on Graph	} Level 5 = // Containment & Onscreen/Output
+				|								
+				|
+			   Solve for 𝑦								} Level 6 = // Prompt
+				|
+				↓
+			   3𝑥 + 2𝑦 = 6								} Level 6 = // Prompt
+				↓
+    		    'Class' Solve for 𝑦								} Level 7 = // Prompt
+		     (Fwd=CRC Header)
+				|
+				|
+________________________________↓_____________________________________
+'Method' Solve for 𝑥    'Object' Solve for 𝑦		     Plot pairs on Graph		} Level 8 = // Write/While/Get
+substitute 𝑥 for...	substitute 𝑦 for...                   	      |
+(Fwd=CRC Header)	(Fwd=CRC Header)
+       | 			|			      	      |
+       ↓ 			↓			      	      ↓		
+'Method' simplify equation 'Method' simplify equation	      	      |	     			} Level 9 = // Put
+ (Fwd=CRC Header)      	    (Fwd=CRC Header)
+       |			|
+       | 			|			      	      |
+       |			|			      	      ↓				} Level 10 = // If
+       |                        |			      	      |
+'Method' multiply to get 'Method' multiply to get             	      |
+variable on one		  variable on one 		      	      |
+side.			  side.				      	      ↓
+(Fwd=CRC Header)	  (Fwd=CRC Header)
+				|			      	      |
+				|			      	      |
+                                ↓ 				      |
+	       'Field' add output from	 	              	      | 			} Level 11 = // Read/Write
+		        multiplication,			      	      ↓
+	    	        from 
+		(Fwd=CRC Header)𝑦------------------------>Plot 𝑦 pairs on Graph			} Level 12 = Containment & Onscreen/Output
