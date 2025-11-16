@@ -1,0 +1,60 @@
+// Managing Information, Spreadsheets, Database Managment Systems,  The Rational Model //
+397 2:35 PM 11/2/2025 David Bricklin, Grace Murray Hopper Award in 
+	1981 for 'Visual Calculator',
+404 6:13 PM 6:13 PM 11/8/2025 1970 Sequel, by Donald D. Chamberland and Rayomond F. Boyce IBM
+					Structured English Query Language
+		1986 American National Standards Institute[ANSI] published the SQL standard,
+		the basis for commercial database language for accessing relational databases.
+392
+
+Notes:
+	Information: raw facts, and data is information organized for a pc to use.
+	An information system can be defined as a software that helps organize and
+	analyze data. Electronic spreadsheets and database management systems are
+	two tools used to analyze data.
+
+	A spreadsheet is a software app that uses, analyzes data using a grid
+	structured of labeled cells, a cell can contain data, formulas, in text
+	numbers, or "special" data such as dates. Spreadsheet cells are referenced
+	by their row and column designation, by using letters to specify the column
+	and numbers to to specify the row.(ex: A1, C7, G45, after the 26th column,
+	spreadsheets begin to use two letters for column designation, so some cells
+	have designations such as ex: AA19, with usually a maximum number of rows at
+	appx 256, the rows 1, 2, 3, 4, etc. can be renumbered inside the grid to display
+	a graph, so vertically 1-5 would be the number of weeks, and horizontally you
+	would see Hal, Amy, Frank Total Avg, digitally the rows and cells stay the same
+	visually you now would reference Hal at 1 weeks tutored 12 persons ect, 
+	Note:
+		the user has the control of preferences to change the font, size,
+		color of the text to rerepersent the graph, row, cells and alignment
+		as they choose, when creating a a spreadsheep and you want to sum some
+		numbers the cell must absolutely must being with '=', also look for 'ƒx'
+		in the banner and this can insert formulas. Spreadsheets are also good 
+		for 'whatif' analysis.
+
+		formula ex:
+				example of a formula loop: 
+						circular reference that cannot be resolved
+//							CELL			CONTENTS		//
+//							A1			=B7*COUNT(F8..K8)	//
+//							B7			=A14+SUM(E40..E50)	//
+//							E45			=G18+G19-D13		//
+//							D13			=D12/A1			//
+
+
+		In the title/Indentifier section: this is a perfect section for a key, this is used
+//		for different types of identifiers and can substitute as a subsection for a		//
+//		value, but must be unique, this means the numbers can be radically different, and do	//
+		no have to be consecutive. The Structured Query Language (SQL) is a database language
+		for managing rational databases, The original database was Sequal, developed by IBM in
+		the 1970's(In 1986 American National Standards Institute[ANSI] published the SQL standard,
+		the basis for commercial database language for accessing relational databases. SQL is not
+		case-sensitive, whitespace counts.		
+		
+		Database Design:
+				ex:
+					enitity-relationship (ER) modeling captures the important record
+		types,  attributes, and relationships in a grphical form, also defines the necessary schema
+		to create the appropriate tables. Cardinality constraint puts restrictions on the number of 
+		relationships that may exist. Cardinality constraints: one-to-one, one-to-many, many-to-many.
+		
