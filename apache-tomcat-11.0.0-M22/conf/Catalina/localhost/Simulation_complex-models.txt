@@ -1,0 +1,47 @@
+// Simulation, complex models //
+12/20/2025 Ivan Sutherland for Sketchpad(1960s):A Man-machine Graphical Communications System, Lightpen.
+
+
+	Notes:
+		A simulation is the technique of using a model to repersent phenomena, objects, or situations.
+		A simulation is used as a tool to repersent a development of a model of a complex system and 
+		the experimental manipulation of the model to observe the results which started in the mid
+		1950's.
+
+
+		Complex systems: dynamic, interactive, and complicated systems being used as simulation,
+		dynamic systems vary over time(statistics, mathematically equation repersentation). 
+		
+		Models: There are two dictionary definitions that relate 
+		to the use of the word simulation, 1) an analogy that can be used to help visualize something
+		that cannot be directly observed, 2) and a set of postulates, data, and inferences presented
+		as a mathematical decription of an entity or state of affairs both repersenting the abstraction
+		of something else.(For example a simulation is an example model an abstraction of a real system,
+		not the system itself.) Usually the way time is repersented : either repersented as a continuous
+		variable, or as a descrete variable is the difference between modeling or simulating a build or 
+		characteristics and features. 
+		Parteto's law: Approx 80% of the behavior can be explained by 20% of the components, 
+			Models (Simulation)
+				Continuous simulation	components: ex: wind, vapor, cloud formation, temp, ect.
+				Discrete event simulation	entities(object classes, resource), 
+									attributes(properies of a class), 
+										and events(responsibilities of the entity).
+										events==rule defining/experiementing process\queuing
+
+											note: queuing models are based on cprobability, and
+												a simulation is a technique for trying out "what if"
+												questions., models include:(FIFO, priority queue).
+
+				Meterological Models(MOS)	time-dependent, partial differential equations
+								components: ex: vertical velocity, temp, pressure, and water vapor concentration.
+									initial values(for variables entered from observation, then solved in order to define values 											of the variables at some later time)
+									re-integration(using the predicted values from the last integration as the observed values 											for the current integration continues[giving the predictions over time]
+									predictions describe rate of change of entities in the model, 
+
+
+											note: MOS(model output statistics), NGM(nested grid model), 
+												radiosondes(measure wind velocity), 
+												rawinsondes(measure satelites, aircraft, and other remote sensing 												sources).
+												GFDL(geographical fluid dynamics laboratory) opened in 1995 uses 												relocatable modules for hurricane tracking, seismic models(waves
+												through the earths medium, provide geologists three demensional 												mapping data of oil, gas reservouirs) 
+  
