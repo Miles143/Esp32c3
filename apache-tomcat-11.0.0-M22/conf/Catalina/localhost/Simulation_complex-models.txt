@@ -1,6 +1,7 @@
 // Simulation, complex models //
 12/20/2025 Ivan Sutherland for Sketchpad(1960s):A Man-machine Graphical Communications System, Lightpen.
-
+12/27/2025 Albert Einstien Special Relativity 1905
+12/27/2025 JP Morgan[Nicola Tesla[Warden Cliff Tower]]
 
 	Notes:
 		A simulation is the technique of using a model to repersent phenomena, objects, or situations.
@@ -43,5 +44,5 @@
 												radiosondes(measure wind velocity), 
 												rawinsondes(measure satelites, aircraft, and other remote sensing 												sources).
 												GFDL(geographical fluid dynamics laboratory) opened in 1995 uses 												relocatable modules for hurricane tracking, seismic models(waves
-												through the earths medium, provide geologists three demensional 												mapping data of oil, gas reservouirs) 
-  
+												through the earths medium, provide geologists three demensional 												mapping data of oil, gas reservouirs)
+  								
