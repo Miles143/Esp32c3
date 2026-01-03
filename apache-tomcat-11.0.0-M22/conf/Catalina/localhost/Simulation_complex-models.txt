@@ -45,4 +45,12 @@
 												rawinsondes(measure satelites, aircraft, and other remote sensing 												sources).
 												GFDL(geographical fluid dynamics laboratory) opened in 1995 uses 												relocatable modules for hurricane tracking, seismic models(waves
 												through the earths medium, provide geologists three demensional 												mapping data of oil, gas reservouirs)
-  								
+  		
+			Embedded Systems:
+					specialized singular logic implemented as a single program, utilizing a mutual chip, 8-bit microprocessors, these range 
+					from 8-bit to 32-bit(DSP's-digital signal processors) to 64-bit(RISC-reduced instruciton set)chips. Many embedded systems 
+					are based on networks of distributed busses, remotely monitored and controlled by regular network management communication 
+					protocols. The term embedded system is nebulous because it encompasses everything that is preprogrammed to perform, dedicated or 					narrow range of functions as part of a larger system, with minimal user intervention. Programs must be written and burned into the 
+					ROM to accomplish its assigned functions.  
+
+				NOTE: (EIM- employee internet monitoring)
