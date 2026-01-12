@@ -1,0 +1,36 @@
+// Networks, open systems protocol,  //
+
+
+
+notes:
+	intangible resources[files],tangible resources[printers],
+		some connections are wireless using radio wabes and 
+		infrared signals. node any host or device on a network, 
+		while key issue is the data transfer rate this can be 
+		referred to as bandwidth, ref:compression, another key 
+		issue is 
+	
+
+	,
+MAN[metropolitan-area network[city network[Internet backbone(ATT)[ISP[DSL*1, 											CableModem*2[Routers*4]]]]],
+	REPEATER[repeats singal],
+	WAN[INTERNET[wide-area network, connects multiple LAN's,
+			or node as a gateway]],
+		ETHERNET[LAN]
+		LAN[local area network],
+		a protocol[rules describing how data-transfer, formated, and processed*5,6] 
+			a ring topology[connects all nodes in 
+			a closed loop, which messages travel in a single direction], 
+			a star topology[A LAN conf that a central node controls all traffic],
+			a bus topology[all nodes are connected to a single communication, that 
+				carries messages in both directions, all nodes check messages,
+				ignoring messages not sent to them]
+
+	--------------->Packet Switching[messages divided into fixed sized, #'d packets*3]
+notes:
+	1: DSL=digital line subscriber:converts to analog, audio freq used to repersent binary (0,1), one 			freq for 1, another for 0, then converted back again to data. MAX 64kb/s (uses copper)	
+	2: Cable Modem=pooled resources 128kb/s uploads/download speeds audio/video clips
+	3: disassembled/reassembled=packet switching
+	4: if a route is blocked or down, it may use another path(incoming packets)
+	5: this note is at this level[open systems[a system kept private by a commercial vendor]
+	6: Open Systems Interconnection OSI Reference Model[seven layer of logical network interaction[7. app layer(app), 6. presentation layer, 5. session layer, 4. transport layer, 3. network layer(routing addressing packets), 2. datalink layer, 1. physical layer(elec)]

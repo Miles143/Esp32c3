@@ -1,0 +1,35 @@
+// Networks-2 network protocols, TCP/IP, MIME types, Firewalls DNS //
+
+
+
+7. App Layer
+6. Presentation Layer
+5. Session Layer
+4. Transport Layer
+3. Network Layer(Classified by Scope(protocol stack=high level(TCP/IP=low level(SMTP(MIME),FTP,TELNET,HYPERTEXT(HTTP->HTML)(alternative(UDP=User 						Datagram Protocol))))
+2. Data Link Layer
+1. Physical Layer
+
+notes:
+	PING(Packet InterNet Groper)
+	PORTS(a numberic designed to control and process traffic)
+	MIME(Multiple Internet Mail Extension)
+	FIREWALL(ACCESS CONTROL POLICY)
+	
+DNS: before dns' host tables were used, DNS' translate(resolve into hostnames)
+
+
+	An IP address is stored in 32bits 8bits.8bits.8bits.8bits
+		and can repersent 256 things,
+			Classes A, B, C 
+				A: first byte, and last byte for host #
+					B: first and second bytes, and last byte for host #
+						C: first three bytes, and last byte for host #
+
+	// .com(US Commercial), .net(Network), .org(Nonprofit organization), .edu(Education), .int(International), .mil(US Military), .gov(US Government), .biz(Business), .info(Information), .pro(Professional), .museums(Museuems), .aero(Aerospace Instrustry), .coop(Cooperative) //
+
+	TLD(TOP LEVEL DOMAINS)
+	// Country Code TLD .au Austrlia, .br Brazil, .ca Canada, .gr Greece, .in India, .ru Russian Federation, .uk United Kingdom //
+
+	
+						  
