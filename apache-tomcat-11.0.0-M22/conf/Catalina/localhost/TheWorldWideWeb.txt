@@ -1,0 +1,38 @@
+// The World Wide Web (developed in mid-1990's)//
+
+
+
+Notes:
+	Spinning the web:
+			the INTERNET[a global network of connected computers(physical and logical aspects)],
+				while the WEB[a service that uses the INTERNET(websites, links, web pages(HTTP, HTTPS)]
+			Networks have been used to connect computers since the 1950's. The Web is an infastructure of 
+				distributed information combined with software that uses networks as a vehicle to exchange
+				that information. A web page is a document that contains or references various kinds of data,
+				such as text,images,graphics,programs, also containing links(to other web pages)using a 
+				point-and-click interface, a website is a collection of related web pages. Web browser(requests
+				web pages), then a web server(disigned to respond,responds to  that specific request) typically
+				using Uniform Resource Locator // URL a url, uniquely identifies the page //, the web page often
+				consists of seperate elements such as images.
+			SearchEngines:
+					Websites use keywords, indexing on each website, some websites only index titles, concept-based seearches search by the context of your search by a technique called clustering(compares words to other words found in close proximity(brings words of alike category, for ex: cars would yeild tires, wheels, exhaust, ect..
+			Cookies:	
+				Name-value pairs, plus the name of the site ex: USERID(unique ID) XXXXXXXXXX wesbite, sometimes timing.
+			HTML:
+				Webpages are created using a language called the Hypertext Markup Language, basically means hypertext that not organized linearly, like a book, rather we use embedded links, nowadays we are using hypermedia. Markup language comes from the fact that primary elements take the form of tags that we insert into a document to annotate the information, think of tags as suggestions to the browser, the title is offset by horizontal lines the <HR>inserts a horizontal rule</HR>, while // <B>, <I>, <U> are used as bold, italic, and underlined tags //, the <UL></UL> unordered lists, or <OL></OL> element equals ordered lists, while unordered lists use bullets, ordered lists are numbered sequencially.
+			IMAGES and LINKS:
+				SRC(source of image)--->IMAGE, also an image can be used as a banner to the entire page.
+
+			InteractiveWebPages:
+						Uses Java embedded into an HTML doc: the applet is actually executing in browser to view the web page, MyApplet_class.
+			JavaServerPages:	
+					A JSP, a webpage that has JSP scriptlets embedded in them, basically a scriptlet of executable code intertwined along the regular HTML content, resembles general Java Program Language encased // "<%", special objects(a called "out" to facilitate some processing, producing output by using ex: <% out.printIn("HelloWorld" %>), in the reality they conceptionally have the power //
+					of a full programming language called java server page. // (using variables, conditionals, loops, and objects) // By the time it arrives at your pc, all active processing has taken place, producing a static(though dynamically created webpage. These are normally used for between a webpage and underlying // "database," // the data is not stored in HTML but in a database, then 
+					during the interaction the information needed is extracted, then off to your pc to view.
+			XML:
+				HTML is fixed, predefined set of tags and each has its own semantics("meaning").
+				XML, // use "+" in tags after["<!ELEMENT author(author+)>"] for one or more authors //, and // use "PCDATA" after["<!ELEMENT title(#PCDATA)>"] for Parsed Characters.
+				XSL, Extensible Stylesheet Language use to transform to html, pda doc, ms word doc, or voice synthesizer.
+				CML, Chemistry Markup Language, used to standardize the format of molecular data.
+				Uniform Resource Locator, URL.
+				Unordered and Ordered Lists have their own set of tags, Anchor tags define links, and use an attribute to specify the location of a web page, Java applets, Java Server Pages (JSP) are used to embed code into html and the code is executed in a browser, while JSP's are compiled into Java Bytecode.
